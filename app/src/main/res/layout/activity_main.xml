@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hakurei.msdfc.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="140dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/main_bt1"
+            android:text="攻击\n阿瓦隆粉碎击"
+            android:background="@drawable/login_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/main_bt2"
+            android:text="高级攻击\n阿瓦隆粉碎击"
+            android:background="@drawable/login_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:id="@+id/main_bt3"
+            android:text="防御\n阿瓦隆粉碎击"
+            android:background="@drawable/login_background"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="140dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/main_bt4"
+            android:text="高级防御\n阿瓦隆粉碎击"
+
+            android:background="@drawable/login_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/main_bt5"
+            android:text="蓄力\n阿瓦隆粉碎击"
+            android:background="@drawable/login_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <hakurei.msdfc.ButtonL android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:text="长按发出指令"
+            android:id="@+id/main_bt6"
+            android:background="@drawable/login_background_background"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
